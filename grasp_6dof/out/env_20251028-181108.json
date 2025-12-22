@@ -1,0 +1,8 @@
+{
+  "seed": 123,
+  "fast": true,
+  "vis": true,
+  "cube_scale": 0.08,
+  "obj": "cube.urdf",
+  "grasps": "grasp_6dof/dataset/sample_grasps.json"
+}

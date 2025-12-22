@@ -1,0 +1,2 @@
+time,obj,cube_scale,topk,seed,ee_index,ik_iters,ik_attempts,joint_force,descent_step,descend_clear,vel_close,pos_close,squeeze,fast,fast_scale,n_trials,success_count,success_rate,obj_shape,grasps_path,tag
+2025-11-20 21:21:32,grasp_6dof/assets/cylinder.urdf,0.08,24,1,11,400,5,900.0,0.0006,0.02,0.8,700.0,1.0,1,0.9,24,8,0.3333,other,grasp_6dof/dataset/gen_cylinder_patched_pruned.json,cylinder.urdf_pc700_sq1.0_topk24_gen_cylinder_patched_pruned

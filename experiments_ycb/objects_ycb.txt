@@ -1,0 +1,10 @@
+# obj_id        urdf_path                          target_h
+cracker_box     YCB_Dataset/ycb/cracker_box.urdf       0.18
+sugar_box       YCB_Dataset/ycb/sugar_box.urdf         0.17
+tomato_soup     YCB_Dataset/ycb/tomato_soup_can.urdf   0.10
+mustard         YCB_Dataset/ycb/mustard_bottle.urdf    0.18
+potted_meat     YCB_Dataset/ycb/potted_meat_can.urdf   0.10
+bowl            YCB_Dataset/ycb/bowl.urdf              0.07
+mug             YCB_Dataset/ycb/mug.urdf               0.10
+bleach          YCB_Dataset/ycb/bleach_cleanser.urdf   0.22
+

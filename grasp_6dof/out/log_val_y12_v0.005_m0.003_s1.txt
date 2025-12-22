@@ -1,0 +1,130 @@
+[INFO] Environment snapshot saved → grasp_6dof/out/env_20251101-110401.json
+[INFO] Detected table top z = -0.004
+[INFO] 方块已放在桌面上 (x=0.38, y=0.00, z=0.038, scale=0.08).
+[INFO] Loaded 12 grasps for validation.
+[DEBUG] Using table_z=-0.004, cube_top_z=0.075, approach_z=0.175, descend_from=0.095, min_target_z=0.035
+[WARN] move_to 未完全到位，残差=0.022 m@[0.38, 0.0, 0.0529899766348106]
+[WARN] move_to 未完全到位，残差=0.025 m@[0.38, 0.0, 0.0509899766348106]
+[WARN] move_to 未完全到位，残差=0.028 m@[0.38, 0.0, 0.0489899766348106]
+[WARN] move_to 未完全到位，残差=0.032 m@[0.38, 0.0, 0.046989976634810596]
+[WARN] move_to 未完全到位，残差=0.036 m@[0.38, 0.0, 0.044989976634810594]
+[WARN] move_to 未完全到位，残差=0.040 m@[0.38, 0.0, 0.04298997663481059]
+[WARN] move_to 未完全到位，残差=0.043 m@[0.38, 0.0, 0.04098997663481059]
+[WARN] move_to 未完全到位，残差=0.045 m@[0.38, 0.0, 0.03898997663481059]
+[WARN] move_to 未完全到位，残差=0.049 m@[0.38, 0.0, 0.03698997663481059]
+[WARN] move_to 未完全到位，残差=0.051 m@[0.38, 0.0, 0.034989976634810585]
+[DEBUG] contact=False, Δz=0.285, success=True
+[1/12] Grasp success = True
+[DEBUG] Using table_z=-0.004, cube_top_z=0.075, approach_z=0.175, descend_from=0.095, min_target_z=0.035
+[WARN] move_to 未完全到位，残差=0.021 m@[0.38, 0.0, 0.046989976663772456]
+[WARN] move_to 未完全到位，残差=0.024 m@[0.38, 0.0, 0.044989976663772455]
+[WARN] move_to 未完全到位，残差=0.027 m@[0.38, 0.0, 0.04298997666377245]
+[WARN] move_to 未完全到位，残差=0.029 m@[0.38, 0.0, 0.04098997666377245]
+[WARN] move_to 未完全到位，残差=0.032 m@[0.38, 0.0, 0.03898997666377245]
+[WARN] move_to 未完全到位，残差=0.035 m@[0.38, 0.0, 0.03698997666377245]
+[WARN] move_to 未完全到位，残差=0.037 m@[0.38, 0.0, 0.034989976663772446]
+[DEBUG] contact=False, Δz=0.275, success=True
+[2/12] Grasp success = True
+[DEBUG] Using table_z=-0.004, cube_top_z=0.075, approach_z=0.175, descend_from=0.095, min_target_z=0.035
+[WARN] move_to 未完全到位，残差=0.021 m@[0.38, 0.0, 0.046989976663772456]
+[WARN] move_to 未完全到位，残差=0.024 m@[0.38, 0.0, 0.044989976663772455]
+[WARN] move_to 未完全到位，残差=0.027 m@[0.38, 0.0, 0.04298997666377245]
+[WARN] move_to 未完全到位，残差=0.029 m@[0.38, 0.0, 0.04098997666377245]
+[WARN] move_to 未完全到位，残差=0.032 m@[0.38, 0.0, 0.03898997666377245]
+[WARN] move_to 未完全到位，残差=0.035 m@[0.38, 0.0, 0.03698997666377245]
+[WARN] move_to 未完全到位，残差=0.037 m@[0.38, 0.0, 0.034989976663772446]
+[DEBUG] contact=False, Δz=0.275, success=True
+[3/12] Grasp success = True
+[DEBUG] Using table_z=-0.004, cube_top_z=0.075, approach_z=0.175, descend_from=0.095, min_target_z=0.035
+[WARN] move_to 未完全到位，残差=0.021 m@[0.38, 0.0, 0.046989976663772456]
+[WARN] move_to 未完全到位，残差=0.024 m@[0.38, 0.0, 0.044989976663772455]
+[WARN] move_to 未完全到位，残差=0.027 m@[0.38, 0.0, 0.04298997666377245]
+[WARN] move_to 未完全到位，残差=0.029 m@[0.38, 0.0, 0.04098997666377245]
+[WARN] move_to 未完全到位，残差=0.032 m@[0.38, 0.0, 0.03898997666377245]
+[WARN] move_to 未完全到位，残差=0.035 m@[0.38, 0.0, 0.03698997666377245]
+[WARN] move_to 未完全到位，残差=0.037 m@[0.38, 0.0, 0.034989976663772446]
+[DEBUG] contact=False, Δz=0.275, success=True
+[4/12] Grasp success = True
+[DEBUG] Using table_z=-0.004, cube_top_z=0.075, approach_z=0.175, descend_from=0.095, min_target_z=0.035
+[WARN] move_to 未完全到位，残差=0.021 m@[0.38, 0.0, 0.046989976663772456]
+[WARN] move_to 未完全到位，残差=0.024 m@[0.38, 0.0, 0.044989976663772455]
+[WARN] move_to 未完全到位，残差=0.027 m@[0.38, 0.0, 0.04298997666377245]
+[WARN] move_to 未完全到位，残差=0.029 m@[0.38, 0.0, 0.04098997666377245]
+[WARN] move_to 未完全到位，残差=0.032 m@[0.38, 0.0, 0.03898997666377245]
+[WARN] move_to 未完全到位，残差=0.035 m@[0.38, 0.0, 0.03698997666377245]
+[WARN] move_to 未完全到位，残差=0.037 m@[0.38, 0.0, 0.034989976663772446]
+[DEBUG] contact=False, Δz=0.275, success=True
+[5/12] Grasp success = True
+[DEBUG] Using table_z=-0.004, cube_top_z=0.075, approach_z=0.175, descend_from=0.095, min_target_z=0.035
+[WARN] move_to 未完全到位，残差=0.021 m@[0.38, 0.0, 0.046989976663772456]
+[WARN] move_to 未完全到位，残差=0.024 m@[0.38, 0.0, 0.044989976663772455]
+[WARN] move_to 未完全到位，残差=0.027 m@[0.38, 0.0, 0.04298997666377245]
+[WARN] move_to 未完全到位，残差=0.029 m@[0.38, 0.0, 0.04098997666377245]
+[WARN] move_to 未完全到位，残差=0.032 m@[0.38, 0.0, 0.03898997666377245]
+[WARN] move_to 未完全到位，残差=0.035 m@[0.38, 0.0, 0.03698997666377245]
+[WARN] move_to 未完全到位，残差=0.037 m@[0.38, 0.0, 0.034989976663772446]
+[DEBUG] contact=False, Δz=0.275, success=True
+[6/12] Grasp success = True
+[DEBUG] Using table_z=-0.004, cube_top_z=0.075, approach_z=0.175, descend_from=0.095, min_target_z=0.035
+[WARN] move_to 未完全到位，残差=0.021 m@[0.38, 0.0, 0.046989976663772456]
+[WARN] move_to 未完全到位，残差=0.024 m@[0.38, 0.0, 0.044989976663772455]
+[WARN] move_to 未完全到位，残差=0.027 m@[0.38, 0.0, 0.04298997666377245]
+[WARN] move_to 未完全到位，残差=0.029 m@[0.38, 0.0, 0.04098997666377245]
+[WARN] move_to 未完全到位，残差=0.032 m@[0.38, 0.0, 0.03898997666377245]
+[WARN] move_to 未完全到位，残差=0.035 m@[0.38, 0.0, 0.03698997666377245]
+[WARN] move_to 未完全到位，残差=0.037 m@[0.38, 0.0, 0.034989976663772446]
+[DEBUG] contact=False, Δz=0.275, success=True
+[7/12] Grasp success = True
+[DEBUG] Using table_z=-0.004, cube_top_z=0.075, approach_z=0.175, descend_from=0.095, min_target_z=0.035
+[WARN] move_to 未完全到位，残差=0.021 m@[0.38, 0.0, 0.046989976663772456]
+[WARN] move_to 未完全到位，残差=0.024 m@[0.38, 0.0, 0.044989976663772455]
+[WARN] move_to 未完全到位，残差=0.027 m@[0.38, 0.0, 0.04298997666377245]
+[WARN] move_to 未完全到位，残差=0.029 m@[0.38, 0.0, 0.04098997666377245]
+[WARN] move_to 未完全到位，残差=0.032 m@[0.38, 0.0, 0.03898997666377245]
+[WARN] move_to 未完全到位，残差=0.035 m@[0.38, 0.0, 0.03698997666377245]
+[WARN] move_to 未完全到位，残差=0.037 m@[0.38, 0.0, 0.034989976663772446]
+[DEBUG] contact=False, Δz=0.275, success=True
+[8/12] Grasp success = True
+[DEBUG] Using table_z=-0.004, cube_top_z=0.075, approach_z=0.175, descend_from=0.095, min_target_z=0.035
+[WARN] move_to 未完全到位，残差=0.021 m@[0.38, 0.0, 0.046989976663772456]
+[WARN] move_to 未完全到位，残差=0.024 m@[0.38, 0.0, 0.044989976663772455]
+[WARN] move_to 未完全到位，残差=0.027 m@[0.38, 0.0, 0.04298997666377245]
+[WARN] move_to 未完全到位，残差=0.029 m@[0.38, 0.0, 0.04098997666377245]
+[WARN] move_to 未完全到位，残差=0.032 m@[0.38, 0.0, 0.03898997666377245]
+[WARN] move_to 未完全到位，残差=0.035 m@[0.38, 0.0, 0.03698997666377245]
+[WARN] move_to 未完全到位，残差=0.037 m@[0.38, 0.0, 0.034989976663772446]
+[DEBUG] contact=False, Δz=0.275, success=True
+[9/12] Grasp success = True
+[DEBUG] Using table_z=-0.004, cube_top_z=0.075, approach_z=0.175, descend_from=0.095, min_target_z=0.035
+[WARN] move_to 未完全到位，残差=0.021 m@[0.38, 0.0, 0.046989976663772456]
+[WARN] move_to 未完全到位，残差=0.024 m@[0.38, 0.0, 0.044989976663772455]
+[WARN] move_to 未完全到位，残差=0.027 m@[0.38, 0.0, 0.04298997666377245]
+[WARN] move_to 未完全到位，残差=0.029 m@[0.38, 0.0, 0.04098997666377245]
+[WARN] move_to 未完全到位，残差=0.032 m@[0.38, 0.0, 0.03898997666377245]
+[WARN] move_to 未完全到位，残差=0.035 m@[0.38, 0.0, 0.03698997666377245]
+[WARN] move_to 未完全到位，残差=0.037 m@[0.38, 0.0, 0.034989976663772446]
+[DEBUG] contact=False, Δz=0.275, success=True
+[10/12] Grasp success = True
+[DEBUG] Using table_z=-0.004, cube_top_z=0.075, approach_z=0.175, descend_from=0.095, min_target_z=0.035
+[WARN] move_to 未完全到位，残差=0.021 m@[0.38, 0.0, 0.046989976663772456]
+[WARN] move_to 未完全到位，残差=0.024 m@[0.38, 0.0, 0.044989976663772455]
+[WARN] move_to 未完全到位，残差=0.027 m@[0.38, 0.0, 0.04298997666377245]
+[WARN] move_to 未完全到位，残差=0.029 m@[0.38, 0.0, 0.04098997666377245]
+[WARN] move_to 未完全到位，残差=0.032 m@[0.38, 0.0, 0.03898997666377245]
+[WARN] move_to 未完全到位，残差=0.035 m@[0.38, 0.0, 0.03698997666377245]
+[WARN] move_to 未完全到位，残差=0.037 m@[0.38, 0.0, 0.034989976663772446]
+[DEBUG] contact=False, Δz=0.275, success=True
+[11/12] Grasp success = True
+[DEBUG] Using table_z=-0.004, cube_top_z=0.075, approach_z=0.175, descend_from=0.095, min_target_z=0.035
+[WARN] move_to 未完全到位，残差=0.021 m@[0.38, 0.0, 0.046989976663772456]
+[WARN] move_to 未完全到位，残差=0.024 m@[0.38, 0.0, 0.044989976663772455]
+[WARN] move_to 未完全到位，残差=0.027 m@[0.38, 0.0, 0.04298997666377245]
+[WARN] move_to 未完全到位，残差=0.029 m@[0.38, 0.0, 0.04098997666377245]
+[WARN] move_to 未完全到位，残差=0.032 m@[0.38, 0.0, 0.03898997666377245]
+[WARN] move_to 未完全到位，残差=0.035 m@[0.38, 0.0, 0.03698997666377245]
+[WARN] move_to 未完全到位，残差=0.037 m@[0.38, 0.0, 0.034989976663772446]
+[DEBUG] contact=False, Δz=0.275, success=True
+[12/12] Grasp success = True
+[INFO] Success rate = 1.00
+[INFO] Saved validated grasps → grasp_6dof/dataset/owg_y12_v0.005_m0.003_s1_validated.json
+[INFO] Appended summary → grasp_6dof/out/summary.csv

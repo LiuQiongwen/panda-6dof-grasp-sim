@@ -1,0 +1,15 @@
+pybullet build time: Jan 29 2025 23:16:28
+EGL device choice: -1 of 4.
+[INFO] EGL renderer plugin loaded: 4
+[INFO] Capturing frame with renderer = TINY
+[INFO] wrote 50 grasps → grasp_6dof/dataset/owg_y12_v0.005_m0.003_s1.json
+Loaded EGL 1.5 after reload.
+GL_VENDOR=NVIDIA Corporation
+GL_RENDERER=NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2
+GL_VERSION=3.3.0 NVIDIA 580.95.05
+GL_SHADING_LANGUAGE_VERSION=3.30 NVIDIA via Cg compiler
+Version = 3.3.0 NVIDIA 580.95.05
+Vendor = NVIDIA Corporation
+Renderer = NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2
+ven = NVIDIA Corporation
+Destroy EGL OpenGL window.

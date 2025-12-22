@@ -1,0 +1,12 @@
+{
+  "obj": "cube.urdf",
+  "grasps": "grasp_6dof/dataset/sample_grasps.json",
+  "out": "grasp_6dof/dataset/validated_grasps_panda.json",
+  "vis": 1,
+  "fast": true,
+  "topk": 12,
+  "cube_scale": 0.08,
+  "seed": 123,
+  "reset_each_trial": 1,
+  "snapshot": "grasp_6dof/out/env_{ts}.json"
+}

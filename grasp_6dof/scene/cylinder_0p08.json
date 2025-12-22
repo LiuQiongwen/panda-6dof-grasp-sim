@@ -1,0 +1,10 @@
+{
+  "pointcloud": "grasp_6dof/pc/cylinder_0p08.ply",
+  "table_z": -0.004,
+  "meta": {
+    "obj_urdf": "grasp_6dof/assets/cylinder.urdf",
+    "target_h": 0.08,
+    "scale_sf": 1.429
+  }
+}
+
