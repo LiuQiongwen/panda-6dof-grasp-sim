@@ -22,31 +22,31 @@ The code is designed as a **strong geometric baseline** and a **reusable simulat
 
 ## 1. Features
 
-- **URDF → point cloud:**
+- **URDF → point cloud**
   - Multi-view depth rendering and ray casting in PyBullet.
   - Object normalization (scale to target height) and consistent table frame.
 
-- **Geometric 6-DoF grasp generation:**
+- **Geometric 6-DoF grasp generation**
   - Sampling in Open3D on the object point cloud.
   - Local normals, antipodal-ish contact pairs, collision checks with the table.
   - Geometric scoring (clearance, alignment, edge distance, etc.).
 
-- **Panda controller in PyBullet:**
+- **Panda controller in PyBullet**
   - Cartesian approach and vertical descent with step size control.
   - Finger closing with velocity and compliant squeezing.
   - Lifting and hold with success / failure detection.
 
-- **Grasp validation and ranking:**
+- **Grasp validation and ranking**
   - Save per-object validated grasps with rich metrics (JSON/CSV).
   - Compute SR@k (success rate at top-k) for k ∈ {1, 3, 5, 10, 20, 32, 64}.
   - Compare geometric vs random 6-DoF baselines.
   - Analyze effect of geometric ranking vs random ordering.
 
-- **Controller tuning:**
+- **Controller tuning**
   - Small grid search over descent step size, closing velocity, squeezing magnitude.
   - Per-object tuned controller configuration to maximize grasp success.
 
-- **YCB experiments:**
+- **YCB experiments**
   - 8 representative YCB objects (bleach, bowl, cracker box, mug, mustard, potted meat, sugar box, tomato soup).
   - Per-object SR@k curves & geom vs random plots.
 
@@ -71,40 +71,3 @@ conda activate owg_env   # or the name you set
 
 # Or pip example
 pip install -r requirements.txt
-
-## 3. Getting Started
-
-### 3.1 Create environment
-
-```bash
-conda env create -f env.yaml
-conda activate owg_env   # or any name you like
-## 4. Reproducing YCB Experiments
-
-We provide scripts to reproduce the YCB results reported in our paper.
-
-```bash
-cd experiments_ycb
-
-# Run multi-object pipeline (geometric baseline)
-bash run_ycb_multiobj.sh
-
-# Run random 6-DoF baseline (optional)
-bash run_ycb_random.sh
-
-# Analyze results and generate plots (SR@k, geom vs random, ranking vs random)
-python analyze_ycb_grasps.py
-python analyze_ycb_tuning.py
-python compare_geom_random.py
-## 5. Citation
-
-If you use this code or the associated datasets/figures in academic work, please cite:
-
-```bibtex
-@misc{liu2025panda6dofgraspsim,
-  author       = {Qiongwen Liu},
-  title        = {panda-6dof-grasp-sim: Simulation-first 6-DoF grasp pipeline with Panda and PyBullet},
-  year         = {2025},
-  howpublished = {\url{https://github.com/LiuQiongwen/panda-6dof-grasp-sim}},
-  note         = {Accessed: 2025-12-22}
-}
