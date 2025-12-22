@@ -71,3 +71,39 @@ conda activate owg_env   # or the name you set
 
 # Or pip example
 pip install -r requirements.txt
+## 3. Getting Started
+
+### 3.1 Create environment
+
+```bash
+conda env create -f env.yaml
+conda activate owg_env   # or any name you like
+## 4. Reproducing YCB Experiments
+
+We provide scripts to reproduce the YCB results reported in our paper.
+
+```bash
+cd experiments_ycb
+
+# Run multi-object pipeline (geometric baseline)
+bash run_ycb_multiobj.sh
+
+# Run random 6-DoF baseline (optional)
+bash run_ycb_random.sh
+
+# Analyze results and generate plots (SR@k, geom vs random, ranking vs random)
+python analyze_ycb_grasps.py
+python analyze_ycb_tuning.py
+python compare_geom_random.py
+## 5. Citation
+
+If you use this code or the associated datasets/figures in academic work, please cite:
+
+```bibtex
+@misc{liu2025panda6dofgraspsim,
+  author       = {Qiongwen Liu},
+  title        = {panda-6dof-grasp-sim: Simulation-first 6-DoF grasp pipeline with Panda and PyBullet},
+  year         = {2025},
+  howpublished = {\url{https://github.com/LiuQiongwen/panda-6dof-grasp-sim}},
+  note         = {Accessed: 2025-12-22}
+}
