@@ -71,6 +71,7 @@ conda activate owg_env   # or the name you set
 
 # Or pip example
 pip install -r requirements.txt
+
 ## 3. Getting Started
 
 ### 3.1 Create environment
