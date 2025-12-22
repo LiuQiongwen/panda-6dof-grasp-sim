@@ -65,9 +65,13 @@ Tested with:
 You can reproduce the environment using the provided `env.yaml` / `requirements.txt` (adapt names if you change them):
 
 ```bash
-# Conda example
-conda env create -f env.yaml
-conda activate owg_env   # or the name you set
-
-# Or pip example
+# Option 1: use conda (for new users)
+conda create -n panda-6dof python=3.9
+conda activate panda-6dof
 pip install -r requirements.txt
+
+# Option 2: use your own venv
+python -m venv owg_env
+source owg_env/bin/activate
+pip install -r requirements.txt
+
