@@ -62,7 +62,7 @@ Tested with:
 - NumPy, SciPy, pandas, matplotlib  
 - (optional) tqdm, seaborn, etc. for plotting
 
-You can reproduce the environment using the provided `env.yaml` / `requirements.txt` (adapt names if you change them):
+Recommended environment setup:
 
 ```bash
 # Option 1: use conda (for new users)
@@ -74,4 +74,3 @@ pip install -r requirements.txt
 python -m venv owg_env
 source owg_env/bin/activate
 pip install -r requirements.txt
-
